@@ -36,7 +36,7 @@ class SplashScreenFirst: UIViewController {
         smallImageBox.image = UIImage(named: "Group 36619")
         bigCenterImageBox.image = UIImage(named: "Group 36618")
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             self.presentSplashScreenSecond() 
           }
 
